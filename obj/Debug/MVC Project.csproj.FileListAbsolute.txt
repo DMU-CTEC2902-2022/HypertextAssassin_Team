@@ -1,0 +1,7 @@
+C:\Users\P2630030\Source\Repos\HypertextAssassin_Team\bin\Debug\MVC Project.exe.config
+C:\Users\P2630030\Source\Repos\HypertextAssassin_Team\bin\Debug\MVC Project.exe
+C:\Users\P2630030\Source\Repos\HypertextAssassin_Team\bin\Debug\MVC Project.pdb
+C:\Users\P2630030\Source\Repos\HypertextAssassin_Team\obj\Debug\MVC Project.csproj.AssemblyReference.cache
+C:\Users\P2630030\Source\Repos\HypertextAssassin_Team\obj\Debug\MVC Project.csproj.CoreCompileInputs.cache
+C:\Users\P2630030\Source\Repos\HypertextAssassin_Team\obj\Debug\MVC Project.exe
+C:\Users\P2630030\Source\Repos\HypertextAssassin_Team\obj\Debug\MVC Project.pdb
