@@ -66,12 +66,20 @@ threatening, offensive, or harmful. System analysts can take the issue to module
 Instances of abusive, harassing, or otherwise unacceptable behavior may be
 reported by contacting the project team at their respective emails: 
 
-Syed.Naqvi3@my365.dmu.ac.uk  -  Syed Naqvi       
-P2630030@my365.dmu.ac.uk     -  Umar Soomro    
-P2622897@my365.dmu.ac.uk     -  Victor Too Hau An           
-P2611172@my365.dmu.ac.uk     -  Pierrick Njiki                 
+[Syed Naqvi](https://github.com/No3Mc)   <br>
+Syed.Naqvi3@my365.dmu.ac.uk  
+
+[Pierrick Njiki](https://github.com/Riick91)   
+P2611172@my365.dmu.ac.uk   
+
+[Umar Soomro](https://github.com/itsumarsoomro)    <br>
+P2630030@my365.dmu.ac.uk       
+
+[Victor Too Hau An](https://github.com/VictorTooHauAn)  
+P2622897@my365.dmu.ac.uk    
 
 
-[Project's Wiki](https://github.com/DMU-CTEC2902-2022/HypertextAssassin_Team/wiki#welcome-to-the-hypertext-assassin-team-wiki)
+Make sure to check:
 
-[Project's Versions](https://github.com/DMU-CTEC2902-2022/HypertextAssassin_Team/releases)
+[Project's Wiki](https://github.com/DMU-CTEC2902-2022/HypertextAssassin_Team/wiki#welcome-to-the-hypertext-assassin-team-wiki)  <br>
+[Project's Versions](https://github.com/DMU-CTEC2902-2022/HypertextAssassin_Team/releases)  <br>
