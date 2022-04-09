@@ -71,8 +71,7 @@ P2630030@my365.dmu.ac.uk     -  Umar Soomro
 P2622897@my365.dmu.ac.uk     -  Victor Too Hau An           
 P2611172@my365.dmu.ac.uk     -  Pierrick Njiki                 
 
-Project's Details
 
-[Project's Wiki](](https://github.com/DMU-CTEC2902-2022/HypertextAssassin_Team/wiki#welcome-to-the-hypertext-assassin-team-wiki)
+[Project's Wiki](https://github.com/DMU-CTEC2902-2022/HypertextAssassin_Team/wiki#welcome-to-the-hypertext-assassin-team-wiki)
 
 [Project's Versions](https://github.com/DMU-CTEC2902-2022/HypertextAssassin_Team/releases)
