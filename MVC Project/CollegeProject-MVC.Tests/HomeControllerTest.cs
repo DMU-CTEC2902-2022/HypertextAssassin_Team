@@ -1,14 +1,11 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System;
+using CollegeProject_MVC.Models;
 
 namespace CollegeProject_MVC.Tests
 {
     [TestClass]
-    public class UnitTest1
+    public class HomeControllerTest
     {
-        [TestMethod]
-        public void TestMethod1()
-        {
-        }
     }
 }
