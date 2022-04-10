@@ -13,11 +13,17 @@ namespace CollegeProject_MVC.Controllers
         {
             return "Shop Index";
         }
-        public string Product(string Type, string Colour)
-
+        public string Product()
         {
-            public string Product(string Type, string Colour)
-
+            return "Product page";
+        }
+        public string nProduct(int id)
+        {
+            return "Product: Id = " + id.ToString();
+        }
+        public string nmProduct(string Type, string Colour)
+        {
+            return String.Format("Product Type = {0}, Colour={1}", Type, Colour);
         }
     }
 }
