@@ -3,7 +3,7 @@ name: Bug report
 about: Create a report developers improve the system
 title: ''
 labels: ''
-assignees: No3Mc, itsumarsoomro
+assignees: itsumarsoomro, No3Mc
 
 ---
 
