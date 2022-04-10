@@ -17,8 +17,11 @@ namespace CollegeProject_MVC.Controllers
             ViewData["CurrentTime"] = DateTime.Now;
             return View();
         }
-
-
+        //it redirects to the page : shop/dvd to shop/product
+        public RedirectResult DVD()
+        {
+            return RedirectPermanent("~/Shop/Product");
+        }
 
 
         //Passing data to ActionMethods with HTTP Get
