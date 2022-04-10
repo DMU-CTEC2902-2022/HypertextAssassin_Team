@@ -6,7 +6,7 @@ Final Project's Submission is due on week 30.
 
 # Team
 
-The team comprises of three members:
+The team comprises of Four members:
 
 * [Umar](https://github.com/itsumarsoomro)<br>
 As a keen interest in development I opted to be a developer and assist my team with multi-years experience in web development  
@@ -20,7 +20,7 @@ Their [Wiki](https://github.com/DMU-CTEC2902-2022/HypertextAssassin_Team/wiki/Vi
 
 For a detail overview about the project please visit [wiki](https://github.com/DMU-CTEC2902-2022/HypertextAssassin_Team/wiki)
 
-
+* Syed
 
 # Goals
 
