@@ -1,0 +1,25 @@
+﻿@model CollegeProjectMVC.Models.CourseModel
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Course</title>
+</head>
+<body>
+    <div>
+        <h1>@Model.CourseTitle</h1>
+        <h2>@Model.CourseCode, @Model.UCASCode</h2>
+        <p>@Model.CourseDescription</p>
+        <p>@Model.CourseTotalHours</p>
+        <h4>@Model.CourseAvailability</h4>
+        <h4>@Model.Accreditation</h4>
+        <h4>@Model.CourseCost</h4>
+    </div>
+</body>
+</html>
