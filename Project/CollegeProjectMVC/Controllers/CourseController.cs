@@ -16,7 +16,7 @@ namespace CollegeProjectMVC.Controllers
             courseModel.CourseCode = "D26";
             courseModel.UCASCode = "D226";
             courseModel.CourseTitle = "Computer Science";
-            courseModel.CourseDescription = "ssafdasfasf";
+            courseModel.CourseDescription = "Computer science (CS) is the study of computers and algorithmic processes, including their principles, their hardware and software designs, their applications, and their impact on society.";
             courseModel.CourseTotalHours = 190;
             courseModel.CourseAvailability = "Available";
             courseModel.Accreditation = "BCS";
