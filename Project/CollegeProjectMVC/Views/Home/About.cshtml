@@ -1,10 +1,51 @@
 ﻿@{
     ViewBag.Title = "About";
 }
-<h2>@ViewBag.Title.</h2>
-<h3>@ViewBag.Message</h3>
 
-<p>Use this area to provide additional information.</p>
+@* Main About Pannel for descripiton *@
+<div class="jumbotron" style="color: black;">
+
+    @* About Callback Tag *@
+    <h2>@ViewBag.Title.</h2>
+
+    @* University About Us Paragraph 1 *@
+    <p style="font-size: 16px;">ITU, located in Lahore, came into being in 2012 in order to advance scholarship and innovation in the areas of science, technology and engineering. ITU aspires to emulate the success of Massachusetts Institute of Technology (MIT) through focus on cross-disciplinary applied research, the cultivation of an entrepreneurial culture in teaching and research, the maintenance of a close collaboration with the Information and Communication Technology industry and the development of strong ties with government funding agencies. With a structure that combines the best features of both public and private sector universities, ITU aims to serve as a center for excellence in academia, research, entrepreneurship and innovation.</p>
+
+    @* University About Us Paragraph 2 *@
+    <p style="font-size: 16px;">
+        Information Technology can be used in any number of innovative ways to develop unique solutions to the problems faced by Pakistan today. ITU was thus formed to enable Pakistani youth to develop such solutions, and also to cater to the acute shortage of trained manpower faced by Pakistan’s IT industry. Modelled along the lines of the world’s leading technology universities, ITU has a project-oriented and design-centered approach to education. The university aims to foster a new generation of IT engineers and entrepreneurs who will help transform the economic and technical landscape of Pakistan.
+
+        ITU is a first of its kind institution in Pakistan; the university seeks to nurture an environment of high-tech research and entrepreneurship with its state-of-the art facilities, world class faculty, its in-house start-up incubator and well-established government and industry linkages.
+    </p>
+
+    @* Campus Life Paragraph *@
+    <h3>CAMPUS LIFE</h3>
+    <p style="font-size: 16px;">
+        ITU encourages a healthy campus environment to nurture and bring out the best of students’ academic and non-academic qualities. The ITU campus is place of vibrant student activities and lively discussions. There are currently four student societies in operation to give students an opportunity to indulge in extracurricular activities.
+
+        <ul>
+            <li>STUDENT SOCIETIES</li>
+        </ul>
+    </p>
+
+    @* University Facilities Paragraph *@
+    <h3>UNIVERSITY FACILITIES</h3>
+    <p style="font-size: 16px;">
+        The university is equipped with state-of-the-art facilities including a library and several labs.
+        <ul>
+            <li>LIBRARY</li>
+        </ul>
+    </p>
+
+    <br>
+
+    @* University Image *@
+    <img src="https://www.idap.pk/updata/products/42/w1024/42_20171202153741.jpg" width="1000" height="400">
+
+    <br>
+    <br>
+
+</div>
 
 @* Advertisment Pannel *@
 <div style="display: flex; padding-left: 200px;">
