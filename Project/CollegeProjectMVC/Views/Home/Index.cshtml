@@ -4,15 +4,17 @@
 
 <br>
 
+@* Welcome box and picture *@
 <div>
-    <b style="font-size: 45px;">Information Technology University</b>
+    <b style="font-size: 42px;">Information Technology University Pakistan</b>
     <p class="lead">Find your new home at ITU</p>
-    <img src="https://itu.edu.pk/wp-content/uploads/2017/12/1.jpg" width="1200px" height="600">
+    <img src="https://itu.edu.pk/wp-content/uploads/2017/12/1.jpg" width="1200" height="600">
 </div>
 
 <br>
 <br>
 
+@* Video box and 2nd Pannel *@
 <div class="jumbotron" style="width: 1200px; display: flex; ">
     <div class="left-pannel">
         <iframe width="500" height="313" src="https://www.youtube.com/embed/LwEmxCusQtg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -23,6 +25,7 @@
     </div>
 </div>
 
+@* Courses Pannel *@
 <div class="row" style="padding-left: 20px; width: 1200px">
 
     <h1 style="padding-left: 12px;"><b>Courses</b></h1>
@@ -58,18 +61,55 @@
 <br>
 <br>
 
-<div class="jumbotron" style="width: 1200px;">
-    <b style="font-size: 30px;">Find the people who will open doors for you</b>
-    <br>
-    <p style="font-size: 15px;">ITU's award-winning careers service provides guaranteed work experience opportunities</p>
-    <p><a class="btn btn-default" href="~/CyberSecurity/Index" style="border-color: black; color: black; font-size: 15px; padding: 10px 10px;">Find out more &raquo;</a></p>
-</div>
-
-<br>
-<br>
-
-<div style="display: flex">
-    <div>
-        <img src="http://cdn.firstwefeast.com/assets/2014/10/starbucks.gif" width="1200" height="200">
+@* 4th pannel - Award Winnig descripiton *@
+    <div class="jumbotron" style="width: 1200px;">
+        <b style="font-size: 30px;">Find the people who will open doors for you</b>
+        <br>
+        <p style="font-size: 15px;">ITU's award-winning careers service provides guaranteed work experience opportunities</p>
+        <p><a class="btn btn-default" href="~/CyberSecurity/Index" style="border-color: black; color: black; font-size: 15px; padding: 10px 10px;">Find out more &raquo;</a></p>
     </div>
+
+<br>
+<br>
+
+
+@* Advertisment Pannel *@
+    <div style="display: flex; padding-left: 200px;">
+        <div class="first-advert">
+            <img src="http://cdn.firstwefeast.com/assets/2014/10/starbucks.gif" width="400" height="200">
+        </div>
+        <div class="second-advert">
+            <img src="https://londonnewsonline.co.uk/wp-content/uploads/2019/07/Kebab-MPU.gif" width="400" height="200">
+        </div>
+    </div>
+
+<br>
+<br>
+<br>
+
+@* Footer Pannel *@
+<div style="background-color: black; color:white; width: 1200px; height: 300px;   padding-left: 60px;">
+    
+    <div style="display: flex;">
+    <div style="padding-top: 50px;">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTeKni2xKIVFUE9CFxdV7mhH5e2YNgevuX80jxnw9QlzUlrPneIwL-JbyngApUkA26NrA&usqp=CAU" height="120" width="320">
+    </div>
+    <div>
+        <ul class="nav navbar-nav" style="padding-top: 50px; padding-left: 320px; color: white; font-size: 17px;">
+            <li>@Html.ActionLink("Home", "Index", "Home")</li>
+            <li>@Html.ActionLink("Course", "Index", "Home")</li>
+            <li>@Html.ActionLink("Register", "Register", "Home")</li>
+            <li>@Html.ActionLink("About", "About", "Home")</li>
+            <li>@Html.ActionLink("Contact", "Contact", "Home")</li>
+        </ul>
+    </div>
+    </div>
+
+    <br>
+
+    <div>
+        <b style="font-size: 22px;">Information Technology University Pakistan</b>
+        <p style="font-size: 13px;">6th Floor، ARFA Tower, Ferozepur Rd, Nishtar Town, Lahore, <br> Punjab, Pakistan</p>
+    </div>
+
 </div>
