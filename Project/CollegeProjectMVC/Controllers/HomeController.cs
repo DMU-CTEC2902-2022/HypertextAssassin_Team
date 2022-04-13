@@ -15,21 +15,21 @@ namespace CollegeProjectMVC.Controllers
 
         public ActionResult About()
         {
-            ViewBag.Message = "Your application description page.";
+            ViewBag.Message = "University description.";
 
             return View();
         }
 
         public ActionResult Contact()
         {
-            ViewBag.Message = "Your contact page.";
+            ViewBag.Message = "University contact page.";
 
             return View();
         }
 
         public ActionResult Course()
         {
-            ViewBag.Message = "Your contact page.";
+            ViewBag.Message = "Courses contact page.";
 
             return View();
         }
