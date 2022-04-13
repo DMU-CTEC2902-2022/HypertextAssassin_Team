@@ -1,26 +1,93 @@
 ﻿@{
     ViewBag.Title = "Contact";
 }
-<h2>@ViewBag.Title.</h2>
-<h3>@ViewBag.Message</h3>
 
-<address>
-    One Microsoft Way<br />
-    Redmond, WA 98052-6399<br />
-    <abbr title="Phone">P:</abbr>
-    425.555.0100
-</address>
+@* Contact call back *@
+<h2 style="background-color: #3a3636; color: white; padding: 20px"><b>@ViewBag.Title</b></h2>
 
-<address>
-    <strong>Support:</strong>   <a href="mailto:Support@example.com">Support@example.com</a><br />
-    <strong>Marketing:</strong> <a href="mailto:Marketing@example.com">Marketing@example.com</a>
-</address>
+@* Main Contact Pannel *@
+<div style="display: flex; color: black;">
 
-@* Advertisment Pannel *@
+    @* left contact details pannel *@
+    <div class="left-pannel">
+
+        @* reistrar office details *@
+        <h3 style="text-decoration: underline; text-decoration-color: #f99d20; padding-bottom: 5px;   text-underline-offset: 5px;">Registrar office</h3>
+        <p style="font-size: 16px;">
+            Ch. Adeel Asghar <br />
+            Registrar <br />
+            Tel: +92-42-111-111-488| Ext: 6064 <br />
+            <strong>Registrar:</strong> <a href="mailto:registrar@itu.edu.pk"> registrar@itu.edu.pk</a>
+        </p>
+
+        @* admission office details *@
+        <h3 style="text-decoration: underline; text-decoration-color: #f99d20; padding-bottom: 5px;   text-underline-offset: 5px;">Admission office</h3>
+        <p style="font-size: 16px;">
+            M.Salman Mubarik <br />
+            Program Officer <br />
+            UAN: (042)-111-111-ITU (488) <br />
+            Tel: 042-99046061 <br />
+            Mob: 0307-0111488 <br />
+            <strong>Admission:</strong>   <a href="mailto:admission@itu.edu.pk">admission@itu.edu.pk</a><br />
+        </p>
+
+        @* academics office details *@
+        <h3 style="text-decoration: underline; text-decoration-color: #f99d20; padding-bottom: 5px;   text-underline-offset: 5px;">Academics office</h3>
+        <p style="font-size: 16px;">
+            Shahid Nadeem  <br />
+            Manager Academics  <br />
+            UAN: (042)-111-111-ITU (488)  <br />
+            Tel: 042-99046041  <br />
+            <strong>Academics:</strong>   <a href="mailto:academics@itu.edu.pk">academics@itu.edu.pk</a><br />
+        </p>
+
+        @* address details *@
+        <h3 style="text-decoration: underline; text-decoration-color: #f99d20; padding-bottom: 5px;   text-underline-offset: 5px;">Address</h3>
+        <address style="font-size: 16px;">
+            Information Technology <br />
+            University Arfa Software Technology Park, <br />
+            346-B, Ferozepur Road, Lahore <br />
+            <abbr title="Phone"><b>Tel:</b></abbr>
+            +92-42-111-111-488 | <b>Ext:</b> 6064
+        </address>
+    </div>
+
+    @* Map integration code*@
+    <div class="right-pannel" style="padding-left: 30px; padding-top: 20px;">
+        <div class="mapouter">
+            <div class="gmap_canvas">
+                <iframe width="810" height="350" id="gmap_canvas" src="https://maps.google.com/maps?q=Information%20Technology%20University%20Arfa%20Software%20Technology%20Park,%20346-B,%20Ferozepur%20Road,%20Lahore&t=k&z=11&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://123movies-to.org"></a><br>
+                <style>
+                    .mapouter {
+                        position: relative;
+                        text-align: right;
+                        height: 400px;
+                        width: 810px;
+                    }
+                </style><a href="https://www.embedgooglemap.net">google map on website</a>
+                <style>
+                    .gmap_canvas {
+                        overflow: hidden;
+                        background: none !important;
+                        height: 400px;
+                        width: 810px;
+                    }
+                </style>
+            </div>
+        </div>
+    </div>
+</div>
+
+<br>
+<br>
+
+@* Advertisment main Pannel *@
 <div style="display: flex; padding-left: 200px;">
+    @* left advertisment *@
     <div class="first-advert">
         <img src="http://cdn.firstwefeast.com/assets/2014/10/starbucks.gif" width="400" height="200">
     </div>
+    @* right advertisment *@
     <div class="second-advert">
         <img src="https://londonnewsonline.co.uk/wp-content/uploads/2019/07/Kebab-MPU.gif" width="400" height="200">
     </div>
@@ -34,10 +101,12 @@
 <div style="background-color: black; color:white; width: 1200px; height: 300px;   padding-left: 60px;">
 
     <div style="display: flex;">
+        @* ITU logo *@
         <div style="padding-top: 50px;">
             <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTeKni2xKIVFUE9CFxdV7mhH5e2YNgevuX80jxnw9QlzUlrPneIwL-JbyngApUkA26NrA&usqp=CAU" height="120" width="320">
         </div>
         <div>
+            @* Footber nav bar links *@
             <ul class="nav navbar-nav" style="padding-top: 50px; padding-left: 320px; color: white; font-size: 17px;">
                 <li>@Html.ActionLink("Top^", "Index", "Home")</li>
                 <li>@Html.ActionLink("Course", "Course", "Course")</li>
@@ -50,6 +119,7 @@
 
     <br>
 
+    @* Footer address of ITU  *@
     <div>
         <b style="font-size: 22px;">Information Technology University Pakistan</b>
         <p style="font-size: 13px;">6th Floor، ARFA Tower, Ferozepur Rd, Nishtar Town, Lahore, <br> Punjab, Pakistan</p>

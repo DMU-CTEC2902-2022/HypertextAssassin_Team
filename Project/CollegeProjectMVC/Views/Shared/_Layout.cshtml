@@ -19,15 +19,15 @@
 
                 </button>
                 <div>
-                    <b class="navbar-brand" style="color:white; font-size: 24px;">ITU</b>
+                    <b class="navbar-brand" style="color:white; font-size: 29px;">ITU</b>
                 </div>
             </div>
             <div class="navbar-collapse collapse">
-                <ul class="nav navbar-nav">
+                <ul class="nav navbar-nav" style="font-size: 17px;">
                     <li>@Html.ActionLink("Home", "Index", "Home")</li>
-                    <li>@Html.ActionLink("Course", "Course", "Course")</li>
-                    <li>@Html.ActionLink("About", "About", "Home")</li>
+                    <li>@Html.ActionLink("Courses", "Course", "Course")</li>
                     <li>@Html.ActionLink("Contact", "Contact", "Home")</li>
+                    <li>@Html.ActionLink("About", "About", "Home")</li>
                 </ul>
                 @Html.Partial("_LoginPartial")
             </div>
