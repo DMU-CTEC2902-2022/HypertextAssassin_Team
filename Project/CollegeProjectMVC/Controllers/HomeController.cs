@@ -22,7 +22,7 @@ namespace CollegeProjectMVC.Controllers
 
         public ActionResult Contact()
         {
-            ViewBag.Message = "University contact page.";
+            ViewBag.Message = "Departments:";
 
             return View();
         }
