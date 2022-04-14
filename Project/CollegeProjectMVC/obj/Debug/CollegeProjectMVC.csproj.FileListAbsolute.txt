@@ -538,3 +538,5 @@ C:\Users\haide\Desktop\Repos\HypertextAssassin_Team\Project\CollegeProjectMVC\ob
 C:\Users\haide\Desktop\Repos\HypertextAssassin_Team\Project\CollegeProjectMVC\obj\Debug\CollegeProjectMVC.csproj.CopyComplete
 C:\Users\haide\Desktop\Repos\HypertextAssassin_Team\Project\CollegeProjectMVC\obj\Debug\CollegeProjectMVC.dll
 C:\Users\haide\Desktop\Repos\HypertextAssassin_Team\Project\CollegeProjectMVC\obj\Debug\CollegeProjectMVC.pdb
+C:\Users\haide\Desktop\Repos\HypertextAssassin_Team\Project\CollegeProjectMVC\obj\Debug\CollegeProjectMVC.Properties.Resources.resources
+C:\Users\haide\Desktop\Repos\HypertextAssassin_Team\Project\CollegeProjectMVC\obj\Debug\CollegeProjectMVC.csproj.GenerateResource.cache
