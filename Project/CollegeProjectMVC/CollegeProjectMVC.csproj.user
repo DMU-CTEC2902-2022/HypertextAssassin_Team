@@ -12,7 +12,7 @@
     <Controller_SelectedScaffolderID>MvcControllerEmptyScaffolder</Controller_SelectedScaffolderID>
     <Controller_SelectedScaffolderCategoryPath>root/Common/MVC/Controller</Controller_SelectedScaffolderCategoryPath>
     <WebStackScaffolding_ControllerDialogWidth>600</WebStackScaffolding_ControllerDialogWidth>
-    <WebStackScaffolding_IsLayoutPageSelected>False</WebStackScaffolding_IsLayoutPageSelected>
+    <WebStackScaffolding_IsLayoutPageSelected>True</WebStackScaffolding_IsLayoutPageSelected>
     <WebStackScaffolding_IsPartialViewSelected>False</WebStackScaffolding_IsPartialViewSelected>
     <WebStackScaffolding_IsReferencingScriptLibrariesSelected>False</WebStackScaffolding_IsReferencingScriptLibrariesSelected>
     <WebStackScaffolding_LayoutPageFile>
@@ -21,6 +21,7 @@
     <View_SelectedScaffolderID>MvcViewScaffolder</View_SelectedScaffolderID>
     <View_SelectedScaffolderCategoryPath>root/Common/MVC/View</View_SelectedScaffolderCategoryPath>
     <WebStackScaffolding_ViewDialogWidth>600</WebStackScaffolding_ViewDialogWidth>
+    <WebStackScaffolding_DbContextTypeFullName>CollegeProjectMVC.Models.RegCourseDB</WebStackScaffolding_DbContextTypeFullName>
   </PropertyGroup>
   <ProjectExtensions>
     <VisualStudio>
@@ -35,8 +36,7 @@
           <SQLDebugging>False</SQLDebugging>
           <ExternalProgram>
           </ExternalProgram>
-          <StartExternalURL>
-          </StartExternalURL>
+          <StartExternalURL>https://localhost:44308/</StartExternalURL>
           <StartCmdLineArguments>
           </StartCmdLineArguments>
           <StartWorkingDirectory>

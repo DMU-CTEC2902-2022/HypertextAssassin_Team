@@ -538,6 +538,7 @@ C:\Users\haide\Desktop\Repos\HypertextAssassin_Team\Project\CollegeProjectMVC\ob
 C:\Users\haide\Desktop\Repos\HypertextAssassin_Team\Project\CollegeProjectMVC\obj\Debug\CollegeProjectMVC.csproj.CopyComplete
 C:\Users\haide\Desktop\Repos\HypertextAssassin_Team\Project\CollegeProjectMVC\obj\Debug\CollegeProjectMVC.dll
 C:\Users\haide\Desktop\Repos\HypertextAssassin_Team\Project\CollegeProjectMVC\obj\Debug\CollegeProjectMVC.pdb
+
 I:\New Clone\Project\CollegeProjectMVC\bin\CollegeProjectMVC.dll.config
 I:\New Clone\Project\CollegeProjectMVC\bin\CollegeProjectMVC.dll
 I:\New Clone\Project\CollegeProjectMVC\bin\CollegeProjectMVC.pdb
@@ -646,3 +647,7 @@ I:\New Clone\Project\CollegeProjectMVC\obj\Debug\CollegeProjectMVC.csproj.CoreCo
 I:\New Clone\Project\CollegeProjectMVC\obj\Debug\CollegeProjectMVC.csproj.CopyComplete
 I:\New Clone\Project\CollegeProjectMVC\obj\Debug\CollegeProjectMVC.dll
 I:\New Clone\Project\CollegeProjectMVC\obj\Debug\CollegeProjectMVC.pdb
+
+C:\Users\haide\Desktop\Repos\HypertextAssassin_Team\Project\CollegeProjectMVC\obj\Debug\CollegeProjectMVC.Properties.Resources.resources
+C:\Users\haide\Desktop\Repos\HypertextAssassin_Team\Project\CollegeProjectMVC\obj\Debug\CollegeProjectMVC.csproj.GenerateResource.cache
+4ba286fe4b47c8dba92a561e71a3638901bab151
