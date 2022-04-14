@@ -1,0 +1,131 @@
+﻿@model CollegeProjectMVC.Models.CyberSecurity
+
+@* Callback for layout & title page name *@
+@{
+    ViewBag.Title = "Modules";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Modules</title>
+</head>
+<body>
+
+    @*CyberSecurity Modules Callback*@
+    <div>
+        <h3>@Model.ModuleTitle</h3>
+        <h3>@Model.ModuleCode</h3>
+        <p>@Model.ModuleDescription</p>
+        <h3>@Model.ModuleContents</h3>
+        <h3>@Model.StaffMembers</h3>
+    </div>
+
+    <br>
+    <br>
+
+    @*CyberSecurity Modules Callback*@
+    <div>
+        <h3>@Model.ModuleTitle1</h3>
+        <h3>@Model.ModuleCode1</h3>
+        <p>@Model.ModuleDescription1</p>
+        <h3>@Model.ModuleContents1</h3>
+        <h3>@Model.StaffMembers1</h3>
+    </div>
+
+    <br>
+    <br>
+
+    @*CyberSecurity Modules Callback*@
+    <div>
+        <h3>@Model.ModuleTitle2</h3>
+        <h3>@Model.ModuleCode2</h3>
+        <p>@Model.ModuleDescription2</p>
+        <h3>@Model.ModuleContents2</h3>
+        <h3>@Model.StaffMembers2</h3>
+    </div>
+
+    <br>
+    <br>
+
+    @*CyberSecurity Modules Callback*@
+    <div>
+        <h3>@Model.ModuleTitle3</h3>
+        <h3>@Model.ModuleCode3</h3>
+        <p>@Model.ModuleDescription3</p>
+        <h3>@Model.ModuleContents3</h3>
+        <h3>@Model.StaffMembers3</h3>
+    </div>
+
+    <br>
+    <br>
+
+    @*CyberSecurity Modules Callback*@
+    <div>
+        <h3>@Model.ModuleTitle4</h3>
+        <h3>@Model.ModuleCode4</h3>
+        <p>@Model.ModuleDescription4</p>
+        <h3>@Model.ModuleContents4</h3>
+        <h3>@Model.StaffMembers4</h3>
+    </div>
+
+    <br>
+    <br>
+
+    @*CyberSecurity Modules Callback*@
+    <div>
+        <h3>@Model.ModuleTitle5</h3>
+        <h3>@Model.ModuleCode5</h3>
+        <p>@Model.ModuleDescription5</p>
+        <h3>@Model.ModuleContents5</h3>
+        <h3>@Model.StaffMembers5</h3>
+    </div>
+
+    <br>
+    <br>
+
+    @* Advertisment Pannel *@
+    <div style="display: flex; padding-left: 200px;">
+        <div class="first-advert">
+            <img src="http://cdn.firstwefeast.com/assets/2014/10/starbucks.gif" width="400" height="200">
+        </div>
+        <div class="second-advert">
+            <img src="https://londonnewsonline.co.uk/wp-content/uploads/2019/07/Kebab-MPU.gif" width="400" height="200">
+        </div>
+    </div>
+
+    <br>
+    <br>
+    <br>
+
+    @* Footer Pannel *@
+    <div style="background-color: black; color:white; width: 1200px; height: 300px;   padding-left: 60px;">
+
+        <div style="display: flex;">
+            <div style="padding-top: 50px;">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTeKni2xKIVFUE9CFxdV7mhH5e2YNgevuX80jxnw9QlzUlrPneIwL-JbyngApUkA26NrA&usqp=CAU" height="120" width="320">
+            </div>
+            <div>
+                <ul class="nav navbar-nav" style="padding-top: 50px; padding-left: 320px; color: white; font-size: 17px;">
+                    <li>@Html.ActionLink("Top^", "Index", "Home")</li>
+                    <li>@Html.ActionLink("Course", "Course", "Course")</li>
+                    <li>@Html.ActionLink("Register", "Register", "Account")</li>
+                    <li>@Html.ActionLink("About", "About", "Home")</li>
+                    <li>@Html.ActionLink("Contact", "Contact", "Home")</li>
+                </ul>
+            </div>
+        </div>
+
+        <br>
+
+        <div>
+            <b style="font-size: 22px;">Information Technology University Pakistan</b>
+            <p style="font-size: 13px;">6th Floor، ARFA Tower, Ferozepur Rd, Nishtar Town, Lahore, <br> Punjab, Pakistan</p>
+        </div>
+    </div>
+
+</body>
+</html>

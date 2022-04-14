@@ -11,7 +11,7 @@ namespace CollegeProjectMVC.Controllers
     {
         public ViewResult Modules()
         {
-
+            //ComputerScience Modules0
             ComputerScience CSModel = new ComputerScience();
             CSModel.ModuleCode = "COS1903 ";
             CSModel.ModuleTitle = "Scala Programming";
@@ -19,7 +19,7 @@ namespace CollegeProjectMVC.Controllers
             CSModel.ModuleContents = "asdasdfasfas";
             CSModel.StaffMembers = "Dr.Alber, Dr.Christopher, Dr.Liam";
 
-
+            //ComputerScience Modules1
             ComputerScience CSModel1 = new ComputerScience();
             CSModel.ModuleCode1 = "COS1920";
             CSModel.ModuleTitle1 = "Database Management";
@@ -27,7 +27,7 @@ namespace CollegeProjectMVC.Controllers
             CSModel.ModuleContents1 = "asdasdfasfas";
             CSModel.StaffMembers1 = "Dr.Alber, Dr.Christopher, Dr.Liam";
 
-
+            //ComputerScience Modules2
             ComputerScience CSModel2 = new ComputerScience();
             CSModel.ModuleCode2 = "COS2905";
             CSModel.ModuleTitle2 = "Object Oriented Programming (Java)";
@@ -35,7 +35,7 @@ namespace CollegeProjectMVC.Controllers
             CSModel.ModuleContents2 = "asdasdfasfas";
             CSModel.StaffMembers2 = "Dr.Alber, Dr.Christopher, Dr.Liam";
 
-
+            //ComputerScience Modules3
             ComputerScience CSModel3 = new ComputerScience();
             CSModel.ModuleCode3 = "COS3911";
             CSModel.ModuleTitle3 = "Mobile Application";
@@ -43,6 +43,7 @@ namespace CollegeProjectMVC.Controllers
             CSModel.ModuleContents3 = "asdasdfasfas";
             CSModel.StaffMembers3 = "Dr.Alber, Dr.Christopher, Dr.Liam";
 
+            //ComputerScience Modules4
             ComputerScience CSModel4 = new ComputerScience();
             CSModel.ModuleCode4 = "IMAT3611";
             CSModel.ModuleTitle4 = "Computer Ethics and Privacy";
@@ -50,6 +51,7 @@ namespace CollegeProjectMVC.Controllers
             CSModel.ModuleContents4 = "asdasdfasfas";
             CSModel.StaffMembers4 = "Dr.Alber, Dr.Christopher, Dr.Liam";
 
+            //ComputerScience Modules5
             ComputerScience CSModel5 = new ComputerScience();
             CSModel.ModuleCode5 = "COS3451";
             CSModel.ModuleTitle5 = "Development Project ";
@@ -57,6 +59,13 @@ namespace CollegeProjectMVC.Controllers
             CSModel.ModuleContents5 = "asdasdfasfas";
             CSModel.StaffMembers5 = "Dr.Alber, Dr.Christopher, Dr.Liam";
 
+            //ComputerScience Modules6
+            ComputerScience CSModel6 = new ComputerScience();
+            CSModel.ModuleCode5 = "COS2910";
+            CSModel.ModuleTitle5 = "Database Management ";
+            CSModel.ModuleDescription5 = "Database management refers to the actions a business takes to manipulate and control data to meet necessary conditions throughout the entire data lifecycle.";
+            CSModel.ModuleContents5 = "asdasdfasfas";
+            CSModel.StaffMembers5 = "Dr.Alber, Dr.Christopher, Dr.Liam";
             return View(CSModel);
         }
 

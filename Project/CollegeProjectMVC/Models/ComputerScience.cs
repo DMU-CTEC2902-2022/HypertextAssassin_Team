@@ -13,7 +13,6 @@ namespace CollegeProjectMVC.Models
         public string ModuleDescription { get; set; }
         public string ModuleContents { get; set; }
         public string StaffMembers { get; set; }
-
         //module model for Computer Science course
         public string ModuleCode1 { get; set; }
         public string ModuleTitle1 { get; set; }
@@ -44,5 +43,11 @@ namespace CollegeProjectMVC.Models
         public string ModuleDescription5 { get; set; }
         public string ModuleContents5 { get; set; }
         public string StaffMembers5 { get; set; }
+        //module model for Computer Science course
+        public string ModuleCode6 { get; set; }
+        public string ModuleTitle6 { get; set; }
+        public string ModuleDescription6 { get; set; }
+        public string ModuleContents6 { get; set; }
+        public string StaffMembers6 { get; set; }
     }
 }
