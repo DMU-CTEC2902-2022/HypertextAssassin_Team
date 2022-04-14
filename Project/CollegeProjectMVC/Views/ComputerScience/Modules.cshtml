@@ -1,0 +1,28 @@
+﻿@model CollegeProjectMVC.Models.ComputerScience
+
+@* Callback for layout & title page name *@
+@{
+    ViewBag.Title = "Modules";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Modules</title>
+</head>
+<body>
+    <div>
+        <h3>@Model.ModuleTitle</h3>
+        <h3>@Model.ModuleCode</h3>
+        <p>@Model.ModuleDescription</p>
+        <h3>@Model.ModuleContents</h3>
+        <h3>@Model.StaffMembers</h3>
+
+
+
+    </div>
+</body>
+</html>

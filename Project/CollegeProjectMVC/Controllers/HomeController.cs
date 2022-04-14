@@ -33,5 +33,13 @@ namespace CollegeProjectMVC.Controllers
 
             return View();
         }
+
+        public ActionResult CSModule()
+        {
+
+            ViewBag.Message = "Modules";
+
+            return View();
+        }
     }
 }
