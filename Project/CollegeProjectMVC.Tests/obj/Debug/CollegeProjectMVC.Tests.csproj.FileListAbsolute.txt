@@ -54,3 +54,7 @@ F:\HypertextAssassin_Team\HypertextAssassin_Team\Project\CollegeProjectMVC.Tests
 F:\HypertextAssassin_Team\HypertextAssassin_Team\Project\CollegeProjectMVC.Tests\obj\Debug\CollegeProjectMVC.Tests.csproj.CoreCompileInputs.cache
 F:\HypertextAssassin_Team\HypertextAssassin_Team\Project\CollegeProjectMVC.Tests\obj\Debug\CollegeProjectMVC.Tests.dll
 F:\HypertextAssassin_Team\HypertextAssassin_Team\Project\CollegeProjectMVC.Tests\obj\Debug\CollegeProjectMVC.Tests.pdb
+F:\ITU\Project\CollegeProjectMVC.Tests\obj\Debug\CollegeProjectMVC.Tests.csprojAssemblyReference.cache
+F:\ITU\Project\CollegeProjectMVC.Tests\obj\Debug\CollegeProjectMVC.Tests.csproj.CoreCompileInputs.cache
+F:\ITU\Project\CollegeProjectMVC.Tests\obj\Debug\CollegeProjectMVC.Tests.dll
+F:\ITU\Project\CollegeProjectMVC.Tests\obj\Debug\CollegeProjectMVC.Tests.pdb
