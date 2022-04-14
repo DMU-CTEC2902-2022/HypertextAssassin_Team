@@ -1,6 +1,6 @@
-﻿
-@model CollegeProjectMVC.Models.CourseModel
+﻿@model CollegeProjectMVC.Models.CourseModel
 
+@* Callback for layout & title page name *@
 @{
     ViewBag.Title = "Courses";
     Layout = "~/Views/Shared/_Layout.cshtml";
@@ -14,15 +14,65 @@
     <title>Course</title>
 </head>
 <body>
-    <div>
-        <h1>@Model.CourseTitle</h1>
-        <h2>@Model.CourseCode, @Model.UCASCode</h2>
-        <p>@Model.CourseDescription</p>
-        <p>@Model.CourseTotalHours</p>
-        <h4>@Model.CourseAvailability</h4>
-        <h4>@Model.Accreditation</h4>
-        <h4>@Model.CourseCost</h4>
+
+    @* Course Page name *@
+    <h2 style="background-color:#3a3636; color: white; padding: 20px">Courses</h2>
+    <br>
+    <br>
+
+    @* Main Pannel for courses *@
+    <div style="display: flex;">
+
+        @* Left course Computer Science Pannel *@
+        <div class="left-pannel" style="background-color: #eeeeee; width: 522px; height: 380px; padding: 10px 30px; border-radius: 20px; margin-left: 30px;">
+
+            @* call back model for course *@
+            <h1 style="text-decoration: underline; text-decoration-color: #f99d20; padding-bottom: 5px; text-underline-offset: 5px;"><b>@Model.CourseTitle</b></h1>
+            <h3><b>Course Code: </b>@Model.CourseCode, <b>UCAS:</b> @Model.UCASCode</h3>
+            <p>@Model.CourseDescription</p>
+            <h4><b>Duration:</b> @Model.CourseTotalHours</h4>
+            <h4><b>Availability:</b> @Model.CourseAvailability</h4>
+            <h4><b>Accreditation:</b> @Model.Accreditation</h4>
+            <h4><b>Fees:</b> @Model.CourseCost</h4>
+            <p><a style="border: 2px solid; border-color: #3863d9; color: black;" class="btn btn-default" href="~/ComputerScience/Index">Learn more &raquo;</a></p>
+        </div>
+
+            @* Right Software Engineer course Pannel *@
+        <div class="right-pannel" style="background-color: #eeeeee; width: 522px; padding: 10px 30px; border-radius: 20px; margin-left: 20px">
+
+            @* call back model for course *@
+            <h1 style="text-decoration: underline; text-decoration-color: #f99d20; padding-bottom: 5px; text-underline-offset: 5px;"><b>@Model.CourseTitle2</b></h1>
+            <h3><b>Course Code:</b> @Model.CourseCode2, <b>UCAS:</b> @Model.UCASCode2</h3>
+            <p>@Model.CourseDescription2</p>
+            <h4><b>Duration:</b> @Model.CourseTotalHours2</h4>
+            <h4><b>Availability:</b> @Model.CourseAvailability2</h4>
+            <h4><b>Accreditation:</b> @Model.Accreditation2</h4>
+            <h4><b>Fees:</b> @Model.CourseCost2</h4>
+
+            <p><a style="border: 2px solid; border-color: #3863d9; color: black;" class="btn btn-default" href="~/ComputerScience/Index">Learn more &raquo;</a></p>
+        </div>
+
+        </div>
+
+        <br>
+   
+        @* Lower Cyber Security Pannel *@
+    <div style="background-color: #eeeeee; width: 522px; height: 400px; padding: 10px 30px; border-radius: 20px; margin-left: 30px;">
+        @* call back model for course *@
+        <h1 style="text-decoration: underline; text-decoration-color: #f99d20; padding-bottom: 5px; text-underline-offset: 5px;"><b>@Model.CourseTitle3</b></h1>
+        <h3><b>Course Code:</b> @Model.CourseCode3, <b>UCAS:</b> @Model.UCASCode3</h3>
+        <p>@Model.CourseDescription3</p>
+        <h4><b>Duration:</b> @Model.CourseTotalHours3</h4>
+        <h4><b>Availability:</b> @Model.CourseAvailability3</h4>
+        <h4><b>Accreditation:</b> @Model.Accreditation3</h4>
+        <h4><b>Fees:</b> @Model.CourseCost3</h4>
+
+
+        <p><a style="border: 2px solid; border-color: #3863d9; color: black;" class="btn btn-default" href="~/ComputerScience/Index">Learn more &raquo;</a></p>
     </div>
+
+    <br>
+    <br>
 
     @* Advertisment Pannel *@
     <div style="display: flex; padding-left: 200px;">

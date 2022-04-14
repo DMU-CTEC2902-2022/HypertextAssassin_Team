@@ -17,5 +17,30 @@ namespace CollegeProjectMVC.Models
         public string Accreditation { get; set; }
         public string CourseCost { get; set; }
 
+        public string CourseCode2 { get; set; }
+        public string UCASCode2 { get; set; }
+        public string CourseTitle2 { get; set; }
+        public string CourseDescription2 { get; set; }
+        public decimal CourseTotalHours2 { get; set; }
+        public string CourseAvailability2 { get; set; }
+        public string Accreditation2 { get; set; }
+        public string CourseCost2 { get; set; }
+
+        public string CourseCode3 { get; set; }
+        public string UCASCode3 { get; set; }
+        public string CourseTitle3 { get; set; }
+        public string CourseDescription3 { get; set; }
+        public decimal CourseTotalHours3 { get; set; }
+        public string CourseAvailability3 { get; set; }
+        public string Accreditation3 { get; set; }
+        public string CourseCost3 { get; set; }
+
+    }
+
+    public class CourseModel2
+    {
+
+    
+
     }
 }
