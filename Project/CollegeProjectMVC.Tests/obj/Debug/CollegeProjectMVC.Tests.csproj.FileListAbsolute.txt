@@ -50,3 +50,7 @@ C:\Users\hp\OneDrive - De Montfort University\Desktop\git\Project\CollegeProject
 C:\Users\hp\OneDrive - De Montfort University\Desktop\git\Project\CollegeProjectMVC.Tests\obj\Debug\CollegeProjectMVC.Tests.csproj.CopyComplete
 C:\Users\hp\OneDrive - De Montfort University\Desktop\git\Project\CollegeProjectMVC.Tests\obj\Debug\CollegeProjectMVC.Tests.dll
 C:\Users\hp\OneDrive - De Montfort University\Desktop\git\Project\CollegeProjectMVC.Tests\obj\Debug\CollegeProjectMVC.Tests.pdb
+F:\HypertextAssassin_Team\HypertextAssassin_Team\Project\CollegeProjectMVC.Tests\obj\Debug\CollegeProjectMVC.Tests.csprojAssemblyReference.cache
+F:\HypertextAssassin_Team\HypertextAssassin_Team\Project\CollegeProjectMVC.Tests\obj\Debug\CollegeProjectMVC.Tests.csproj.CoreCompileInputs.cache
+F:\HypertextAssassin_Team\HypertextAssassin_Team\Project\CollegeProjectMVC.Tests\obj\Debug\CollegeProjectMVC.Tests.dll
+F:\HypertextAssassin_Team\HypertextAssassin_Team\Project\CollegeProjectMVC.Tests\obj\Debug\CollegeProjectMVC.Tests.pdb
