@@ -7,7 +7,7 @@ namespace CollegeProjectMVC.Models
 {
     public class CourseModel
     {
-
+        //Course model for Computer Science course
         public string CourseCode { get; set; }
         public string UCASCode { get; set; }
         public string CourseTitle { get; set; }
@@ -17,6 +17,7 @@ namespace CollegeProjectMVC.Models
         public string Accreditation { get; set; }
         public string CourseCost { get; set; }
 
+        //Course model for Software engineer course
         public string CourseCode2 { get; set; }
         public string UCASCode2 { get; set; }
         public string CourseTitle2 { get; set; }
@@ -26,6 +27,7 @@ namespace CollegeProjectMVC.Models
         public string Accreditation2 { get; set; }
         public string CourseCost2 { get; set; }
 
+        //Course model for Cyber Security course
         public string CourseCode3 { get; set; }
         public string UCASCode3 { get; set; }
         public string CourseTitle3 { get; set; }
@@ -37,10 +39,4 @@ namespace CollegeProjectMVC.Models
 
     }
 
-    public class CourseModel2
-    {
-
-    
-
-    }
 }
