@@ -33,7 +33,7 @@ namespace CollegeProjectMVC.Controllers
                     db.SaveChanges();
                 }
                 ModelState.Clear();
-                ViewBag.Message = RCourse.FirstName + " " + RCourse.LastName + " Application Successful.";
+                ViewBag.Message = RCourse.FirstName + " " + RCourse.LastName + ", Your Application for " + RCourse.CourseTitle + " has been registered Successful.";
             }
             return View();
         }
