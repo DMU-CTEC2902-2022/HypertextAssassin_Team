@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
+using System.Web.Mvc;
 
 namespace CollegeProjectMVC.Models
 {
@@ -16,6 +17,12 @@ namespace CollegeProjectMVC.Models
         //module model for Cyber Security course
         public string ModuleCode1 { get; set; }
         public string ModuleTitle1 { get; set; }
+
+        public ViewResult Modules()
+        {
+            throw new NotImplementedException();
+        }
+
         public string ModuleDescription1 { get; set; }
         public string ModuleContents1 { get; set; }
         public string StaffMembers1 { get; set; }

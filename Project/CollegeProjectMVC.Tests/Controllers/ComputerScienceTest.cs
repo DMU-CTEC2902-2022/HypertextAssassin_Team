@@ -11,7 +11,7 @@ using System.Web.Mvc;
 namespace CollegeProjectMVC.Tests.Controllers
 {
     [TestClass]
-    public class ModuleUnitTest
+    public class ComputerScienceTest
     {
         [TestMethod]
 
