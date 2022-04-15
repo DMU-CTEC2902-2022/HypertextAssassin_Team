@@ -12,7 +12,8 @@ namespace CollegeProjectMVC.Tests.Controllers
     [TestClass]
     public class RegisterCourseTest
     {
-
+        
+        //registeration of courses as application testing
         [TestMethod]
         public void RegCourses()
         {

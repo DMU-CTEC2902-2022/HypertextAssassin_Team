@@ -12,6 +12,7 @@ namespace CollegeProjectMVC.Tests.Controllers
     [TestClass]
     public class RegisterandLoginTest
     {
+        //Registeration Testing
         [TestMethod]
         public void Register()
         {
@@ -24,6 +25,7 @@ namespace CollegeProjectMVC.Tests.Controllers
             // Assert
             Assert.IsNotNull(result);
         }
+        //Forgot password testing
         [TestMethod]
         public void ForgotPassword()
         {
@@ -36,6 +38,7 @@ namespace CollegeProjectMVC.Tests.Controllers
             // Assert
             Assert.IsNotNull(result);
         }
+        //Second confirmation of pass testing
         [TestMethod]
         public void FPasswordConfirmation()
         {
@@ -48,6 +51,7 @@ namespace CollegeProjectMVC.Tests.Controllers
             // Assert
             Assert.IsNotNull(result);
         }
+        //Login failure testing
         [TestMethod]
         public void ExternalLoginFailure()
         {

@@ -13,8 +13,8 @@ namespace CollegeProjectMVC.Tests.Controllers
     [TestClass]
     public class CyberSecurityTest
     {
+        //CyberSecurity module code testing
         [TestMethod]
-
         public void CSModuleCode()
         {
             // Arrange
@@ -27,6 +27,8 @@ namespace CollegeProjectMVC.Tests.Controllers
             // Assert
             Assert.AreEqual("SE3901", result.ModuleCode);
         }
+
+        //CyberSecurity module title testing
         [TestMethod]
         public void CSModuleTitle()
         {
@@ -41,6 +43,8 @@ namespace CollegeProjectMVC.Tests.Controllers
             // Assert
             Assert.AreEqual("C Programming.", result.ModuleTitle);
         }
+
+        //CyberSecurity module description testing
         [TestMethod]
         public void CSModuleDescription()
         {
@@ -55,6 +59,8 @@ namespace CollegeProjectMVC.Tests.Controllers
             // Assert
             Assert.AreEqual("C is a general-purpose computer programming language. It was created in the 1970s and remains very widely used and influential. By design, C's features cleanly reflect the capabilities of the targetted CPUs.", result.ModuleDescription);
         }
+
+        //CyberSecurity module contents testing
         [TestMethod]
         public void CSModuleContents()
         {
@@ -69,6 +75,8 @@ namespace CollegeProjectMVC.Tests.Controllers
             // Assert
             Assert.AreEqual("Foundations, and C Coding.", result.ModuleContents);
         }
+
+        //CyberSecurity staff members testing
         [TestMethod]
         public void CSStaffMembers()
         {
