@@ -1,4 +1,22 @@
-﻿using CollegeProjectMVC.Models;
+﻿//HypertextAssassin Team(https://github.com/DMU-CTEC2902-2022/HypertextAssassin_Team)
+//    Members:
+
+//    Syed - p2652259 Github(https://github.com/No3Mc) Developer/System Analyst:
+//    Umar - P2630030 Github(https://github.com/itsumarsoomro) Developer
+
+//    Victor - P2622897 Github(https://github.com/VictorTooHauAn) System Analyst
+//    Pierrick - P2611172 Github(https://github.com/Riick91) System Analyst
+
+//    Wiki:
+
+//    Syed: https://github.com/DMU-CTEC2902-2022/HypertextAssassin_Team/wiki/Syed's-Wiki
+//    Umar: https://github.com/DMU-CTEC2902-2022/HypertextAssassin_Team/wiki/Umar's-Wiki
+//    Victor: https://github.com/DMU-CTEC2902-2022/HypertextAssassin_Team/wiki/Victor-Too-Hau-An---Coordinator-role
+//    Pierrick: https://github.com/DMU-CTEC2902-2022/HypertextAssassin_Team/wiki/Pierrick-Njiki-An-Coordinator-role
+
+
+
+using CollegeProjectMVC.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -12,6 +30,7 @@ namespace CollegeProjectMVC.Controllers
         // GET: Course
         public ViewResult Course()
         {
+            //Computer Science Course
             CourseModel courseModel = new CourseModel();
             courseModel.CourseCode = "D16";
             courseModel.UCASCode = "D226";
@@ -22,6 +41,7 @@ namespace CollegeProjectMVC.Controllers
             courseModel.Accreditation = "BCS";
             courseModel.CourseCost = "16,250$";
 
+            //Software Engineering Course
             CourseModel courseModel2 = new CourseModel();
             courseModel.CourseCode2 = "D16";
             courseModel.UCASCode2 = "D2126";
@@ -32,6 +52,7 @@ namespace CollegeProjectMVC.Controllers
             courseModel.Accreditation2 = "BCS";
             courseModel.CourseCost2 = "14,250$";
 
+            //Cyber Security Course
             CourseModel courseModel3 = new CourseModel();
             courseModel.CourseCode3 = "D16";
             courseModel.UCASCode3 = "D212";

@@ -1,23 +1,45 @@
-﻿@model CollegeProjectMVC.Models.ExternalLoginListViewModel
+﻿@*HypertextAssassin Team(https://github.com/DMU-CTEC2902-2022/HypertextAssassin_Team)
+    Members:
+
+    Syed-p2652259 Github(https://github.com/No3Mc) Developer/System Analyst:
+    Umar-P2630030 Github(https://github.com/itsumarsoomro) Developer
+
+    Victor-P2622897 Github(https://github.com/VictorTooHauAn) System Analyst
+    Pierrick-P2611172 Github(https://github.com/Riick91) System Analyst
+
+    Wiki:
+
+    Syed: https://github.com/DMU-CTEC2902-2022/HypertextAssassin_Team/wiki/Syed's-Wiki
+    Umar: https://github.com/DMU-CTEC2902-2022/HypertextAssassin_Team/wiki/Umar's-Wiki
+    Victor: https://github.com/DMU-CTEC2902-2022/HypertextAssassin_Team/wiki/Victor-Too-Hau-An---Coordinator-role
+    Pierrick: https://github.com/DMU-CTEC2902-2022/HypertextAssassin_Team/wiki/Pierrick-Njiki-An-Coordinator-role*@
+
+
+
+@model CollegeProjectMVC.Models.ExternalLoginListViewModel
 @using Microsoft.Owin.Security
 
 <h4>Registration of course</h4>
 <hr />
 @{
     var loginProviders = Context.GetOwinContext().Authentication.GetExternalAuthenticationTypes();
-    if (loginProviders.Count() == 0) {
+    if (loginProviders.Count() == 0)
+    {
         <div>
             <p>
                 You have login to register a course!
             </p>
         </div>
     }
-    else {
-        using (Html.BeginForm("ExternalLogin", "Account", new { ReturnUrl = Model.ReturnUrl })) {
+    else
+    {
+        using (Html.BeginForm("ExternalLogin", "Account", new { ReturnUrl = Model.ReturnUrl }))
+        {
             @Html.AntiForgeryToken()
             <div id="socialLoginList">
                 <p>
-                    @foreach (AuthenticationDescription p in loginProviders) {
+                    @foreach (AuthenticationDescription p in loginProviders)
+                    {
                         <button type="submit" class="btn btn-default" id="@p.AuthenticationType" name="provider" value="@p.AuthenticationType" title="Log in using your @p.Caption account">@p.AuthenticationType</button>
                     }
                 </p>

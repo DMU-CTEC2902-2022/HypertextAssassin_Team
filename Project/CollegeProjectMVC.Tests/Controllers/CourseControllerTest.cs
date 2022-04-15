@@ -9,9 +9,9 @@ namespace CollegeProjectMVC.Tests.Controllers
     [TestClass]
     public class CourseControllerTest
     {
-     
-        [TestMethod]
 
+        //course name testing
+        [TestMethod]
         public void CourseName()
         {
             // Arrange
@@ -24,6 +24,8 @@ namespace CollegeProjectMVC.Tests.Controllers
             // Assert
             Assert.AreEqual("Computer Science", result.CourseTitle);
         }
+
+        //course code testing
         [TestMethod]
         public void CourseCode()
         {
@@ -37,6 +39,8 @@ namespace CollegeProjectMVC.Tests.Controllers
             // Assert
             Assert.AreEqual("D16", result.CourseCode);
         }
+
+        //course descirption testing
         [TestMethod]
         public void CourseDescription()
         {
@@ -50,6 +54,8 @@ namespace CollegeProjectMVC.Tests.Controllers
             // Assert
             Assert.AreEqual("Computer science (CS) is the study of computers and algorithmic processes, including their principles, their hardware and software designs, their applications, and their impact on society.", result.CourseDescription);
         }
+
+        //course duration testing
         [TestMethod]
         public void CourseDuration()
         {
@@ -63,6 +69,8 @@ namespace CollegeProjectMVC.Tests.Controllers
             // Assert
             Assert.AreEqual(390, result.CourseTotalHours);
         }
+
+        //course availability testing
         [TestMethod]
         public void CourseAvailability()
         {
@@ -76,6 +84,8 @@ namespace CollegeProjectMVC.Tests.Controllers
             // Assert
             Assert.AreEqual("Available", result.CourseAvailability);
         }
+
+        //course accredation testing
         [TestMethod]
         public void CourseAccreditation()
         {
@@ -89,6 +99,8 @@ namespace CollegeProjectMVC.Tests.Controllers
             // Assert
             Assert.AreEqual("BCS", result.Accreditation);
         }
+
+        //course cost testing
         [TestMethod]
         public void CourseCost()
         {

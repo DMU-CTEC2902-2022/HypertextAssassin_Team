@@ -12,6 +12,8 @@ namespace CollegeProjectMVC.Tests.Controllers
     [TestClass]
     public class HomeControllerTest
     {
+
+        //Home Index testing
         [TestMethod]
         public void Index()
         {
@@ -25,6 +27,7 @@ namespace CollegeProjectMVC.Tests.Controllers
             Assert.IsNotNull(result);
         }
 
+        //About tab/page on homepage testing
         [TestMethod]
         public void About()
         {
@@ -38,6 +41,7 @@ namespace CollegeProjectMVC.Tests.Controllers
             Assert.IsNotNull(result);
         }
 
+        //Contact page/tab on homepage testing
         [TestMethod]
         public void Contact()
         {
@@ -50,6 +54,8 @@ namespace CollegeProjectMVC.Tests.Controllers
             // Assert
             Assert.IsNotNull(result);
         }
+
+        //Courses page/tab on homepage testing
         [TestMethod]
         public void Course()
         {
@@ -62,6 +68,8 @@ namespace CollegeProjectMVC.Tests.Controllers
             // Assert
             Assert.IsNotNull(result);
         }
+
+        //CSModule testing on the course tab/page in homepage 
         [TestMethod]
         public void CSModule()
         {

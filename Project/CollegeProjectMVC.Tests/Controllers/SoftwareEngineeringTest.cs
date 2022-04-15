@@ -13,8 +13,8 @@ namespace CollegeProjectMVC.Tests.Controllers
     [TestClass]
     public class SoftwareEngineeringTest
     {
+        //SoftwareEngineering Module code testing
         [TestMethod]
-
         public void SEMModuleCode()
         {
             // Arrange
@@ -27,6 +27,8 @@ namespace CollegeProjectMVC.Tests.Controllers
             // Assert
             Assert.AreEqual("SE3906", result.ModuleCode);
         }
+
+        //SoftwareEngineering module title testing
         [TestMethod]
         public void SEMModuleTitle()
         {
@@ -41,6 +43,8 @@ namespace CollegeProjectMVC.Tests.Controllers
             // Assert
             Assert.AreEqual("Interaction Design.", result.ModuleTitle);
         }
+
+        //SoftwareEngineering module description testing
         [TestMethod]
         public void SEMModuleDescription()
         {
@@ -55,6 +59,8 @@ namespace CollegeProjectMVC.Tests.Controllers
             // Assert
             Assert.AreEqual("Interaction design, often abbreviated as IxD, is the practice of designing interactive digital products, environments, systems, and services. Beyond the digital aspect, interaction design is also useful when creating physical products, exploring how a user might interact with it.", result.ModuleDescription);
         }
+
+        //SoftwareEngineering module contents testing
         [TestMethod]
         public void SEMModuleContents()
         {
@@ -69,6 +75,8 @@ namespace CollegeProjectMVC.Tests.Controllers
             // Assert
             Assert.AreEqual("Foudations and Importance of Design.", result.ModuleContents);
         }
+
+        //SoftwareEngineering staff members testing
         [TestMethod]
         public void SEMStaffMembers()
         {
