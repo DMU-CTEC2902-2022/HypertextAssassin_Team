@@ -11,9 +11,21 @@ The team comprises of Four members:
 
 <!-- *Users* | `Roles` | **Commits and Revisions** -->
 
+The System comprise of:
+- [Tabs](https://user-images.githubusercontent.com/41834061/163555867-5ff288e2-fff4-4384-b8e9-3ba7116b8afe.mp4)
+    - [Home](https://user-images.githubusercontent.com/41834061/163555605-78dd4c70-a7fb-468d-bedd-0aa4b6c4509b.mp4)
+    - [About](https://user-images.githubusercontent.com/41834061/163556674-7e60296e-b1e7-4bcb-95dc-92efd092d5fc.mp4)
+    - [Contact](https://user-images.githubusercontent.com/41834061/163556516-f21442ae-17f3-4ec2-9cc8-f8a653b4f2ca.mp4)
+    - [Courses](https://user-images.githubusercontent.com/41834061/163556342-ea19e724-f37a-4309-9571-7e76aff09b2b.mp4)
+- [Toolbar]()
+    - [Home](https://user-images.githubusercontent.com/41834061/163555605-78dd4c70-a7fb-468d-bedd-0aa4b6c4509b.mp4)
+    - [About](https://user-images.githubusercontent.com/41834061/163556674-7e60296e-b1e7-4bcb-95dc-92efd092d5fc.mp4)
+    - [Contact](https://user-images.githubusercontent.com/41834061/163556516-f21442ae-17f3-4ec2-9cc8-f8a653b4f2ca.mp4)
+    - [Courses](https://user-images.githubusercontent.com/41834061/163556342-ea19e724-f37a-4309-9571-7e76aff09b2b.mp4)
+- [Home Page](https://user-images.githubusercontent.com/41834061/163555605-78dd4c70-a7fb-468d-bedd-0aa4b6c4509b.mp4)
+- [Register and Login](https://user-images.githubusercontent.com/41834061/163556918-f87b6b68-c7c5-4cc9-a9c4-71fe0030faab.mp4)
 
-
-
+<br>
 
 * [Umar](https://github.com/itsumarsoomro)<br>
 As a keen interest in development I opted to be a developer and assist my team with multi-years experience in web development  
