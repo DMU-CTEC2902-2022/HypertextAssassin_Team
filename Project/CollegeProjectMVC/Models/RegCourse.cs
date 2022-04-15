@@ -36,4 +36,5 @@ namespace CollegeProjectMVC.Models
         [Required(ErrorMessage = "CourseTitle is required")]
         public string CourseTitle { get; set; }
     }
+
 }

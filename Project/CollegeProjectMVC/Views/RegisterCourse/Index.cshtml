@@ -13,28 +13,28 @@
 <table class="table">
     <tr>
         <th>
-            @Html.DisplayNameFor(model => model.FirstName)
+            @Html.DisplayNameFor(m => m.FirstName)
         </th>
         <th>
-            @Html.DisplayNameFor(model => model.LastName)
+            @Html.DisplayNameFor(m => m.LastName)
         </th>
         <th>
-            @Html.DisplayNameFor(model => model.Email)
+            @Html.DisplayNameFor(m => m.Email)
         </th>
         <th>
-            @Html.DisplayNameFor(model => model.PhoneNo)
+            @Html.DisplayNameFor(m => m.PhoneNo)
         </th>
         <th>
-            @Html.DisplayNameFor(model => model.Address)
+            @Html.DisplayNameFor(m => m.Address)
         </th>
         <th>
-            @Html.DisplayNameFor(model => model.CourseCode)
+            @Html.DisplayNameFor(m => m.CourseCode)
         </th>
         <th>
-            @Html.DisplayNameFor(model => model.UCASCode)
+            @Html.DisplayNameFor(m => m.UCASCode)
         </th>
         <th>
-            @Html.DisplayNameFor(model => model.CourseTitle)
+            @Html.DisplayNameFor(m => m.CourseTitle)
         </th>
         <th></th>
     </tr>
@@ -66,11 +66,7 @@
             <td>
                 @Html.DisplayFor(modelItem => item.CourseTitle)
             </td>
-            <td>
-                @Html.ActionLink("Edit", "Edit", new { id = item.ID }) |
-                @Html.ActionLink("Details", "Details", new { id = item.ID }) |
-                @Html.ActionLink("Delete", "Delete", new { id = item.ID })
-            </td>
+
         </tr>
     }
 
