@@ -2,6 +2,32 @@
     ViewBag.Title = "About";
 }
 
+@* Css for top arrow button *@
+<style>
+    #myBtn {
+        display: none;
+        position: fixed;
+        bottom: 20px;
+        right: 30px;
+        z-index: 99;
+        font-size: 18px;
+        border: none;
+        outline: none;
+        background-color: black;
+        color: white;
+        cursor: pointer;
+        padding: 15px;
+        border-radius: 4px;
+    }
+
+        #myBtn:hover {
+            background-color: #555;
+        }
+</style>
+
+@* top button *@
+<button onclick="topFunction()" id="myBtn" title="Go to top"><img src="https://img.icons8.com/material-sharp/344/ffffff/circled-up-2.png" height="40" width="40"></button>
+
 @* Main About Pannel for descripiton *@
 <div style="color: black; width: 1140px;">
 
@@ -75,7 +101,7 @@
         </div>
         <div>
             <ul class="nav navbar-nav" style="padding-top: 50px; padding-left: 320px; color: white; font-size: 17px;">
-                <li>@Html.ActionLink("Top^", "Index", "Home")</li>
+                <li>@Html.ActionLink("Home", "Index", "Home")</li>
                 <li>@Html.ActionLink("Course", "Course", "Course")</li>
                 <li>@Html.ActionLink("Register", "Register", "Account")</li>
                 <li>@Html.ActionLink("About", "About", "Home")</li>
@@ -92,3 +118,26 @@
     </div>
 
 </div>
+
+@* Java script for top arrow functionality *@
+<script>
+    //Get the button
+    var mybutton = document.getElementById("myBtn");
+
+    // When the user scrolls down 20px from the top of the document, show the button
+    window.onscroll = function () { scrollFunction() };
+
+    function scrollFunction() {
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            mybutton.style.display = "block";
+        } else {
+            mybutton.style.display = "none";
+        }
+    }
+
+    // When the user clicks on the button, scroll to the top of the document
+    function topFunction() {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+    }
+</script>
