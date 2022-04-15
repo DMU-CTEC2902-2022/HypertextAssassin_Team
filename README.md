@@ -33,54 +33,13 @@ The System comprise of:
 * [Module Testing](https://github.com/DMU-CTEC2902-2022/HypertextAssassin_Team/wiki/Test-Module) <br>
 
 # Individual R&D (Wikis)
-* [Syed](https://github.com/DMU-CTEC2902-2022/HypertextAssassin_Team/wiki/Syed's-Wiki) <br>
-* [Umar](https://github.com/DMU-CTEC2902-2022/HypertextAssassin_Team/wiki/Umar's-Wiki) <br>
-* [Victor](https://github.com/DMU-CTEC2902-2022/HypertextAssassin_Team/wiki/Victor-Too-Hau-An---Coordinator-role) <br>
-* [Pierrick](https://github.com/DMU-CTEC2902-2022/HypertextAssassin_Team/wiki/Pierrick-Njiki-An-Coordinator-role) <br>
+* [Syed](https://github.com/DMU-CTEC2902-2022/HypertextAssassin_Team/wiki/Syed's-Wiki) || Developer/System Analyst<br>
+* [Umar](https://github.com/DMU-CTEC2902-2022/HypertextAssassin_Team/wiki/Umar's-Wiki) || Developer<br>
+* [Victor](https://github.com/DMU-CTEC2902-2022/HypertextAssassin_Team/wiki/Victor-Too-Hau-An---Coordinator-role) || System Analyst <br>
+* [Pierrick](https://github.com/DMU-CTEC2902-2022/HypertextAssassin_Team/wiki/Pierrick-Njiki-An-Coordinator-role) || System Analyst<br>
 
 [Glossary](https://github.com/DMU-CTEC2902-2022/HypertextAssassin_Team/wiki/Glossary)<br>
 [Team Protocols](https://github.com/DMU-CTEC2902-2022/HypertextAssassin_Team/wiki/Team-Protocols)<br>
 
 <br>
-
-
-
-
-
-
-
-# Submissions 
-Final Project's Submission is due on week 30.
-
-# Team
-
-The team comprises of Four members:
-
-
-<!-- *Users* | `Roles` | **Commits and Revisions** -->
-* [Umar](https://github.com/itsumarsoomro)<br>
-As a keen interest in development I opted to be a developer and assist my team with multi-years experience in web development  
-For a detailed breif please visit [Wiki](https://github.com/DMU-CTEC2902-2022/HypertextAssassin_Team/wiki/Umar's-Wiki)
-
-* [Pierrick](https://github.com/Riick91) <br>
-Their [Wiki](https://github.com/DMU-CTEC2902-2022/HypertextAssassin_Team/wiki/Pierrick-Njiki-An-Coordinator-role)
-
-* [Victor](https://github.com/VictorTooHauAn) <br>
-Their [Wiki](https://github.com/DMU-CTEC2902-2022/HypertextAssassin_Team/wiki/Victor-Too-Hau-An---Coordinator-role)
-
-
-For a detail overview about the project please visit [wiki](https://github.com/DMU-CTEC2902-2022/HypertextAssassin_Team/wiki)
-
-
-
-# Goals
-
-## For Developer
-
-As a developer, [Umar's](https://github.com/itsumarsoomro) goal is to develop the website and solves the issues while adding new functinalities to the system. It's their duty to have a clear interface of the system. Which includes overall readablity of the code
-
-## For System Analyst
-
-As System Analysts, it's the duty of [Victor](https://github.com/VictorTooHauAn) and [Pierrick](https://github.com/Riick91) to make the document as with proper planning and then request the developer to execute it. They are be responsible for the Documentation on Wiki. Which includes diagrams such as Entity-Relationship Diagram, Use Case Diagram, User Interface Diagram, Class Diagram and etc.
-
 
