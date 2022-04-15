@@ -3,6 +3,10 @@
     ViewBag.Title = "Register";
 }
 
+
+<br>
+<br>
+
 <h2>@ViewBag.Title.</h2>
 
 @using (Html.BeginForm("Register", "Account", FormMethod.Post, new { @class = "form-horizontal", role = "form" }))
@@ -35,6 +39,55 @@
         </div>
     </div>
 }
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+@* Advertisment Pannel *@
+<div style="display: flex; padding-left: 200px;">
+    <div class="first-advert">
+        <img src="http://cdn.firstwefeast.com/assets/2014/10/starbucks.gif" width="400" height="200">
+    </div>
+    <div class="second-advert">
+        <img src="https://londonnewsonline.co.uk/wp-content/uploads/2019/07/Kebab-MPU.gif" width="400" height="200">
+    </div>
+</div>
+
+<br>
+<br>
+<br>
+
+
+@* Footer Pannel *@
+<div style="background-color: black; color:white; width: 1200px; height: 300px;   padding-left: 60px;">
+
+    <div style="display: flex;">
+        <div style="padding-top: 50px;">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTeKni2xKIVFUE9CFxdV7mhH5e2YNgevuX80jxnw9QlzUlrPneIwL-JbyngApUkA26NrA&usqp=CAU" height="120" width="320">
+        </div>
+        <div>
+            <ul class="nav navbar-nav" style="padding-top: 50px; padding-left: 320px; color: white; font-size: 17px;">
+                <li>@Html.ActionLink("Home", "Index", "Home")</li>
+                <li>@Html.ActionLink("Course", "Course", "Course")</li>
+                <li>@Html.ActionLink("Register", "Register", "Account")</li>
+                <li>@Html.ActionLink("About", "About", "Home")</li>
+                <li>@Html.ActionLink("Contact", "Contact", "Home")</li>
+            </ul>
+        </div>
+    </div>
+
+    <br>
+
+    <div>
+        <b style="font-size: 22px;">Information Technology University Pakistan</b>
+        <p style="font-size: 13px;">6th Floor، ARFA Tower, Ferozepur Rd, Nishtar Town, Lahore, <br> Punjab, Pakistan</p>
+    </div>
+
+</div>
 
 @section Scripts {
     @Scripts.Render("~/bundles/jqueryval")
