@@ -1,13 +1,14 @@
 ﻿@model IEnumerable<CollegeProjectMVC.Models.RegCourse>
 
 @{
-    ViewBag.Title = "Index";
+    ViewBag.Title = "List of Applications";
 }
 
-<h2>Index</h2>
-
+<h2>Applications</h2>
+<h3>In case of wrong entries please contact support</h3>
+@Html.ActionLink("Support", "Contact", "Home", new { area = "Support" }, null)
 <p>
-    @Html.ActionLink("Create New", "RegCourses")
+    @Html.ActionLink("Apply for a New Application", "RegCourses")
 </p>
 <table class="table">
     <tr>
