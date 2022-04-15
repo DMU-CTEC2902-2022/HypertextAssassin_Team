@@ -23,10 +23,8 @@ namespace CollegeProjectMVC.Controllers
         }
 
         [HttpPost]
-        public ActionResult RegtCourses(RegCourse RCourse)
+        public ActionResult RegCourses(RegCourse RCourse)
         {
-            if (!ModelState.IsValid)
-            {
                 using (RegCourseDB db = new RegCourseDB())
                 {
                     db.RegCourses.Add(RCourse);
@@ -34,7 +32,6 @@ namespace CollegeProjectMVC.Controllers
                 }
                 ModelState.Clear();
                 ViewBag.Message = RCourse.FirstName + " " + RCourse.LastName + ", Your Application for " + RCourse.CourseTitle + " has been registered Successful.";
-            }
             return View();
         }
         
