@@ -1,7 +1,7 @@
 # HypertextAssassin_Team
 
 
-The System comprise of:
+The System comprise of (Links to UX):
 - [Tabs](https://user-images.githubusercontent.com/41834061/163555867-5ff288e2-fff4-4384-b8e9-3ba7116b8afe.mp4)
     - [Home](https://user-images.githubusercontent.com/41834061/163555605-78dd4c70-a7fb-468d-bedd-0aa4b6c4509b.mp4)
     - [About](https://user-images.githubusercontent.com/41834061/163556674-7e60296e-b1e7-4bcb-95dc-92efd092d5fc.mp4)
