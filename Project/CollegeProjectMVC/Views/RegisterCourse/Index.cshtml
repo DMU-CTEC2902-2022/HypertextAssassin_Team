@@ -7,7 +7,7 @@
 <h2>Index</h2>
 
 <p>
-    @Html.ActionLink("Create New", "Create")
+    @Html.ActionLink("Create New", "RegCourses")
 </p>
 <table class="table">
     <tr>
@@ -38,38 +38,89 @@
         <th></th>
     </tr>
 
-@foreach (var item in Model) {
-    <tr>
-        <td>
-            @Html.DisplayFor(modelItem => item.FirstName)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.LastName)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.Email)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.PhoneNo)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.Address)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.CourseCode)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.UCASCode)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.CourseTitle)
-        </td>
-        <td>
-            @Html.ActionLink("Edit", "Edit", new { id=item.ID }) |
-            @Html.ActionLink("Details", "Details", new { id=item.ID }) |
-            @Html.ActionLink("Delete", "Delete", new { id=item.ID })
-        </td>
-    </tr>
-}
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.FirstName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.LastName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Email)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.PhoneNo)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Address)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CourseCode)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.UCASCode)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CourseTitle)
+            </td>
+            <td>
+                @Html.ActionLink("Edit", "Edit", new { id = item.ID }) |
+                @Html.ActionLink("Details", "Details", new { id = item.ID }) |
+                @Html.ActionLink("Delete", "Delete", new { id = item.ID })
+            </td>
+        </tr>
+    }
 
 </table>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+@* Advertisment Pannel *@
+<div style="display: flex; padding-left: 200px;">
+    @* Starbucks advert *@
+    <div class="first-advert">
+        <a href="https://www.starbucks.co.uk/"><img src="http://cdn.firstwefeast.com/assets/2014/10/starbucks.gif" width="400" height="200"></a>
+    </div>
+    <div class="second-advert">
+        @* German Donner Kebab advert *@
+        <a href="https://www.germandonerkebab.com/"><img src="https://londonnewsonline.co.uk/wp-content/uploads/2019/07/Kebab-MPU.gif" width="400" height="200"></a>
+    </div>
+</div>
+
+<br>
+<br>
+<br>
+
+@* Footer Pannel *@
+<div style="background-color: black; color:white; width: 1200px; height: 300px;   padding-left: 60px;">
+
+    <div style="display: flex;">
+        @* ITU logo *@
+        <div style="padding-top: 50px;">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTeKni2xKIVFUE9CFxdV7mhH5e2YNgevuX80jxnw9QlzUlrPneIwL-JbyngApUkA26NrA&usqp=CAU" height="120" width="320">
+        </div>
+        <div>
+            @* Footber nav bar links *@
+            <ul class="nav navbar-nav" style="padding-top: 50px; padding-left: 320px; color: white; font-size: 17px;">
+                <li>@Html.ActionLink("Home", "Index", "Home")</li>
+                <li>@Html.ActionLink("Course", "Course", "Course")</li>
+                <li>@Html.ActionLink("Register", "Register", "Account")</li>
+                <li>@Html.ActionLink("About", "About", "Home")</li>
+                <li>@Html.ActionLink("Contact", "Contact", "Home")</li>
+            </ul>
+        </div>
+    </div>
+</div>

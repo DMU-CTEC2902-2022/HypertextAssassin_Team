@@ -61,11 +61,11 @@ namespace CollegeProjectMVC.Controllers
 
             //ComputerScience Modules6
             ComputerScience CSModel6 = new ComputerScience();
-            CSModel.ModuleCode5 = "COS2910";
-            CSModel.ModuleTitle5 = "Database Management ";
-            CSModel.ModuleDescription5 = "Database management refers to the actions a business takes to manipulate and control data to meet necessary conditions throughout the entire data lifecycle.";
-            CSModel.ModuleContents5 = "asdasdfasfas";
-            CSModel.StaffMembers5 = "Dr.Alber, Dr.Christopher, Dr.Liam";
+            CSModel.ModuleCode6 = "COS2910";
+            CSModel.ModuleTitle6 = "Database Management ";
+            CSModel.ModuleDescription6 = "Database management refers to the actions a business takes to manipulate and control data to meet necessary conditions throughout the entire data lifecycle.";
+            CSModel.ModuleContents6 = "asdasdfasfas";
+            CSModel.StaffMembers6 = "Dr.Alber, Dr.Christopher, Dr.Liam";
             return View(CSModel);
         }
 

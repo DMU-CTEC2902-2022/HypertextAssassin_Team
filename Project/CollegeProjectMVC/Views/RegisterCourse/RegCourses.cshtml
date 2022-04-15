@@ -1,26 +1,26 @@
 ﻿@model CollegeProjectMVC.Models.RegCourse
 
 @{
-    ViewBag.Title = "RegCourses";
+    ViewBag.Title = "RegisterCourses";
 }
 
-<h2>RegCourses</h2>
+<br>
+<br>
 
-
-@using (Html.BeginForm()) 
+@using (Html.BeginForm())
 {
     @Html.AntiForgeryToken()
-    
+
     <div class="form-horizontal">
-        <h4>RegCourse</h4>
+        <h2>Register Courses</h2>
         <hr />
         @Html.ValidationSummary(true, "", new { @class = "text-danger" })
         @if (ViewBag.Message != null)
-                {
-                    <div class="form-group">
-                        <div class="col-md-10">@ViewBag.Message</div>
-                    </div>
-                }
+        {
+            <div class="form-group">
+                <div class="col-md-10">@ViewBag.Message</div>
+            </div>
+        }
         <div class="form-group">
             @Html.LabelFor(model => model.FirstName, htmlAttributes: new { @class = "control-label col-md-2" })
             <div class="col-md-10">
@@ -97,6 +97,47 @@
     @Html.ActionLink("Back to List", "Index")
 </div>
 
+<br>
+<br>
+<br>
+
+@* Advertisment Pannel *@
+<div style="display: flex; padding-left: 200px;">
+    @* Starbucks advert *@
+    <div class="first-advert">
+        <a href="https://www.starbucks.co.uk/"><img src="http://cdn.firstwefeast.com/assets/2014/10/starbucks.gif" width="400" height="200"></a>
+    </div>
+    <div class="second-advert">
+        @* German Donner Kebab advert *@
+        <a href="https://www.germandonerkebab.com/"><img src="https://londonnewsonline.co.uk/wp-content/uploads/2019/07/Kebab-MPU.gif" width="400" height="200"></a>
+    </div>
+</div>
+
+<br>
+<br>
+<br>
+
+@* Footer Pannel *@
+<div style="background-color: black; color:white; width: 1200px; height: 300px;   padding-left: 60px;">
+
+    <div style="display: flex;">
+        @* ITU logo *@
+        <div style="padding-top: 50px;">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTeKni2xKIVFUE9CFxdV7mhH5e2YNgevuX80jxnw9QlzUlrPneIwL-JbyngApUkA26NrA&usqp=CAU" height="120" width="320">
+        </div>
+        <div>
+            @* Footber nav bar links *@
+            <ul class="nav navbar-nav" style="padding-top: 50px; padding-left: 320px; color: white; font-size: 17px;">
+                <li>@Html.ActionLink("Home", "Index", "Home")</li>
+                <li>@Html.ActionLink("Course", "Course", "Course")</li>
+                <li>@Html.ActionLink("Register", "Register", "Account")</li>
+                <li>@Html.ActionLink("About", "About", "Home")</li>
+                <li>@Html.ActionLink("Contact", "Contact", "Home")</li>
+            </ul>
+        </div>
+    </div>
+</div>
 @section Scripts {
     @Scripts.Render("~/bundles/jqueryval")
 }
+

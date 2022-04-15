@@ -63,11 +63,11 @@ namespace CollegeProjectMVC.Controllers
 
                 //CyberSecurity Modules6
                 CyberSecurity CSModel6 = new CyberSecurity();
-                CSModel.ModuleCode5 = "SE3451";
-                CSModel.ModuleTitle5 = " Development Project";
-                CSModel.ModuleDescription5 = "Development Project means any construction, development or infrastructure project, including without limitation greenfield projects and brownfield projects, in which the Company or any of its Subsidiaries participates or holds, directly or indirectly, an interest, or the bidding on any such project.";
-                CSModel.ModuleContents5 = "asdasdfasfas";
-                CSModel.StaffMembers5 = "Dr.Alber, Dr.Christopher, Dr.Liam";
+                CSModel.ModuleCode6 = "SE3451";
+                CSModel.ModuleTitle6 = " Development Project";
+                CSModel.ModuleDescription6 = "Development Project means any construction, development or infrastructure project, including without limitation greenfield projects and brownfield projects, in which the Company or any of its Subsidiaries participates or holds, directly or indirectly, an interest, or the bidding on any such project.";
+                CSModel.ModuleContents6 = "asdasdfasfas";
+                CSModel.StaffMembers6 = "Dr.Alber, Dr.Christopher, Dr.Liam";
 
             return View(CSModel);
             }

@@ -99,19 +99,31 @@
         <h3>@Model.StaffMembers5</h3>
     </div>
 
+    @*ComputerScience Modules Callback*@
+    <div class="jumbotron" height="200" style="border-radius: 20px;">
+        <h2 style="text-decoration: underline; text-decoration-color: #f99d20; padding-bottom: 5px; text-underline-offset: 5px;"><b>@Model.ModuleTitle6</b></h2>
+        <h3>@Model.ModuleCode6</h3>
+        <p>@Model.ModuleDescription6</p>
+        <h3>@Model.ModuleContents6</h3>
+        <h3>@Model.StaffMembers6</h3>
+    </div>
+
+
     @* Registration process *@
     <div class="jumbotron" height="200" style="border-radius: 20px;">
         <h2 style="text-decoration: underline; text-decoration-color: #f99d20; padding-bottom: 5px; text-underline-offset: 5px;"><b>Registration</b></h2>
-        <p>To register into any course you have to login first which will takes you to the registration page where you can register by filling the registration form.</p>    
+        <p>To register into any course you have to login first which will takes you to the registration page where you can register by filling the registration form.</p>
     </div>
 
     @* Advertisment Pannel *@
     <div style="display: flex; padding-left: 200px;">
+        @* Starbucks advert *@
         <div class="first-advert">
-            <img src="http://cdn.firstwefeast.com/assets/2014/10/starbucks.gif" width="400" height="200">
+            <a href="https://www.starbucks.co.uk/"><img src="http://cdn.firstwefeast.com/assets/2014/10/starbucks.gif" width="400" height="200"></a>
         </div>
         <div class="second-advert">
-            <img src="https://londonnewsonline.co.uk/wp-content/uploads/2019/07/Kebab-MPU.gif" width="400" height="200">
+            @* German Donner Kebab advert *@
+            <a href="https://www.germandonerkebab.com/"><img src="https://londonnewsonline.co.uk/wp-content/uploads/2019/07/Kebab-MPU.gif" width="400" height="200"></a>
         </div>
     </div>
 
