@@ -20,6 +20,9 @@ The System comprise of:
 
 # Our Wiki [(Team Wiki)](https://github.com/DMU-CTEC2902-2022/HypertextAssassin_Team/wiki)
 
+
+
+
 # Team R&D
 ## Diagrams:
 * [Class Diagram](https://github.com/DMU-CTEC2902-2022/HypertextAssassin_Team/wiki/Documentations-and-Diagrams#class-diagram) <br>
@@ -28,18 +31,28 @@ The System comprise of:
 * [Entity Relationship Diagram](https://github.com/DMU-CTEC2902-2022/HypertextAssassin_Team/wiki/Documentations-and-Diagrams#entity-relationship-diagram) <br>
 
 ## Testing and Planning
-* [Staff Testing](https://github.com/DMU-CTEC2902-2022/HypertextAssassin_Team/wiki/TestStaff#test-methods) <br>
-* [Couse Testing](https://github.com/DMU-CTEC2902-2022/HypertextAssassin_Team/wiki/Test-Module#course-testing) <br>
-* [Module Testing](https://github.com/DMU-CTEC2902-2022/HypertextAssassin_Team/wiki/Test-Module) <br>
+
+- **Documentation**:
+
+     * [Victor's Documentation](https://github.com/DMU-CTEC2902-2022/HypertextAssassin_Team/blob/main/Information-Oriented%20references/Victor%20Diagrams.pdf)
+     * [Pierrick's Documentation](https://github.com/DMU-CTEC2902-2022/HypertextAssassin_Team/blob/main/Information-Oriented%20references/Pierrick%20Diagrams.pdf)
+- **Testing**: 
+
+    * [Couse Testing](https://github.com/DMU-CTEC2902-2022/HypertextAssassin_Team/wiki/Couse-Testing) <br>
+    * [Homepg Testing](https://github.com/DMU-CTEC2902-2022/HypertextAssassin_Team/wiki/Homepg-Testing) <br>
+    * [Cyber Security Testing](https://github.com/DMU-CTEC2902-2022/HypertextAssassin_Team/wiki/Cyber-Security-Testing) <br>
+    * [Register Course Testing](https://github.com/DMU-CTEC2902-2022/HypertextAssassin_Team/wiki/Register-Course-Testing) <br>
+    * [Computer Science Testing](https://github.com/DMU-CTEC2902-2022/HypertextAssassin_Team/wiki/Computer-Science-Testing) <br>
+    * [Register and Login Testing](https://github.com/DMU-CTEC2902-2022/HypertextAssassin_Team/wiki/Register-and-Login-Testing) <br>
+    * [Software Engineering Testing](https://github.com/DMU-CTEC2902-2022/HypertextAssassin_Team/wiki/Software-Engineering-Testing) <br>
+  
+
 
 # Individual R&D (Wikis)
-* [Syed](https://github.com/DMU-CTEC2902-2022/HypertextAssassin_Team/wiki/Syed's-Wiki) || Developer/System Analyst<br>
-* [Umar](https://github.com/DMU-CTEC2902-2022/HypertextAssassin_Team/wiki/Umar's-Wiki) || Developer<br>
-* [Victor](https://github.com/DMU-CTEC2902-2022/HypertextAssassin_Team/wiki/Victor-Too-Hau-An---Coordinator-role) || System Analyst <br>
-* [Pierrick](https://github.com/DMU-CTEC2902-2022/HypertextAssassin_Team/wiki/Pierrick-Njiki-An-Coordinator-role) || System Analyst<br>
+* [Syed](https://github.com/DMU-CTEC2902-2022/HypertextAssassin_Team/wiki/Syed's-Wiki) <br>
+* [Umar](https://github.com/DMU-CTEC2902-2022/HypertextAssassin_Team/wiki/Umar's-Wiki) <br>
+* [Victor](https://github.com/DMU-CTEC2902-2022/HypertextAssassin_Team/wiki/Victor-Too-Hau-An---Coordinator-role) <br>
+* [Pierrick](https://github.com/DMU-CTEC2902-2022/HypertextAssassin_Team/wiki/Pierrick-Njiki-An-Coordinator-role) <br>
 
-[Glossary](https://github.com/DMU-CTEC2902-2022/HypertextAssassin_Team/wiki/Glossary)<br>
-[Team Protocols](https://github.com/DMU-CTEC2902-2022/HypertextAssassin_Team/wiki/Team-Protocols)<br>
-
-<br>
-
+**[Glossary](https://github.com/DMU-CTEC2902-2022/HypertextAssassin_Team/wiki/Glossary)**<br>
+**[Team Protocols](https://github.com/DMU-CTEC2902-2022/HypertextAssassin_Team/wiki/Team-Protocols)**<br>
